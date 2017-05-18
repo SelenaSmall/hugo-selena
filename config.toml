@@ -1,8 +1,38 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "My New Hugo Site"
-theme = "hugo_theme_robust"
+config = "config.toml"
+theme = "osprey"
+canonifyURLS = true
+googleAnalytics = ""
 
 [Params]
-  Author = "Selena Small"
   disqusShortname = "selenasmall"
+
+  Author = "Selena Small"
+  description = "I R DEV"
+  logoBig = "/images/osprey-logo.png"
+  logoSmall = "/images/osprey-logo.png"
+  favicon = "favicon.ico"
+  opengraphImage = "/images/osprey.png"
+  twitter = "selenasmall88"
+  linkedin = "selenasmall"
+  github = "selenasmall"
+  email = "selena@email.com"
+  googleTagManger = ""
+  highlightJS = true
+  copyright = true
+  credit = true
+
+[[menu.main]]
+    name = "Work"
+    url  = "/#work"
+    weight = 1
+[[menu.main]]
+    name = "Blog"
+    url  = "/#blog"
+    weight = 2
+[[menu.main]]
+    name = "Contact"
+    url  = "/#contact"
+    weight = 3
