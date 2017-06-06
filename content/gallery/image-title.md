@@ -4,5 +4,5 @@ title = "SelenaSmall"
 image = "default.jpg"
 alt = "This is a description of the image"
 color = "#7ac143"
-link1 = "https://selenasmall.com"
+link1 = "http://www.selenasmall.com"
 +++
